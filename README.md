@@ -6,7 +6,12 @@ Easily create modern-looking popups with a Title, Prompt and up to 8 different b
 Getting Started
 ===============
 
-Load magikarp.popups.js file into your document.
+Load magikarp.popups.js file into your document, along with jquery and jquery ui:
+  ```javascript
+  <script src="magikarp.popups.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  ```
 
 Add the "data-social-popup" expando to any html element, it must contain the following (Each separated by ";"):
 
