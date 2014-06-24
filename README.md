@@ -33,7 +33,9 @@ Add the "data-social-popup" expando to any html element, it must contain the fol
 
 For example:
 
+```html
 <img src="http://www.pentcloud.com/social/app/images/addTask.png" data-social-popup="Eliminar Contacto;¿Estás seguro de querer eliminar este contacto?;:btn:Si-#f9ae41-deleteContact:btn:No-#ef3e42-SocialPopupsHide">
+```
 
 When clicked would create the following result:
 
